@@ -15,7 +15,7 @@ export default function Index({ recipes }: { recipes: IRecipePreview[] }) {
         </Head>
         <Container>
           <Banner />
-          <h1>Got {recipes.length} recipes</h1>
+          {recipes.length > 0 && <RecipesList recipes={recipes} />}
         </Container>
       </Layout>
     </>
