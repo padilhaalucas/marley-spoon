@@ -67,6 +67,7 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
 To stop the application, you can use the following command:
 ```bash
 make down
+```
 
 ## Technology Stack
 
