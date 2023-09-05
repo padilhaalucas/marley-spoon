@@ -80,10 +80,6 @@ make down
 
 I use Docker to containerize our application. The `Dockerfile` sets up a Node.js environment, installs required packages, and sets the application to run. We also use a `docker-compose.yml` file to manage the Docker service, making it easy to build, up, and down the Docker containers through the `Makefile` commands.
 
-## Contributions
-
-To contribute to this project, you can follow the traditional GitHub fork and pull request process.
-
 ## Trade-offs and Shortcuts
 
 Due to the time constraint of 4 hours:
