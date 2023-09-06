@@ -47,12 +47,12 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
     ```bash
     git clone https://github.com/padilhaalucas/marley-spoon.git
     ```
-2. Navigate to the project directory:
+
+### Running the App
+First, vavigate to the project directory:
     ```bash
     cd marley-spoon
     ```
-
-### Running the App
 
 **Docker**
 1. Build the Docker images:
