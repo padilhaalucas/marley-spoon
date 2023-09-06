@@ -49,7 +49,7 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
     ```
 
 ### Running the App
-First, vavigate to the project directory:
+1. First, navigate to the project directory:
     ```bash
     cd marley-spoon
     ```
