@@ -64,6 +64,10 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
     make up
     ```
 2. Open your browser and visit `http://localhost:3000`.
+To stop the application, you can use the following command:
+```bash
+make down
+```
 
 Or you can run from **pnpm** 
 1. Run it locally
@@ -71,11 +75,6 @@ Or you can run from **pnpm**
     pnpm dev
     ```
 2. Open your browser and visit `http://localhost:3000`.
-
-To stop the application, you can use the following command:
-```bash
-make down
-```
 
 ## Technology Stack
 
