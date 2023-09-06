@@ -51,25 +51,25 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
     ```bash
     cd marley-spoon
     ```
-3. Build the Docker images:
-    ```bash
-    make build
-    ```
 
 ### Running the App
 
 **Docker**
-1. Start the Docker containers:
+1. Build the Docker images:
+    ```bash
+    make build
+    ```
+2. Start the Docker containers:
     ```bash
     make up
     ```
-2. Open your browser and visit `http://localhost:3000`.
-To stop the application, you can use the following command:
-```bash
-make down
-```
+3. Open your browser and visit `http://localhost:3000`.
+    To stop the application, you can use the following command:
+    ```bash
+    make down
+    ```
 
-Or you can run from **pnpm** 
+**Or you can run from ***pnpm***** 
 1. Run it locally
     ```bash
     pnpm dev
