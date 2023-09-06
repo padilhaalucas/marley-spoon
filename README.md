@@ -62,7 +62,12 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
     ```bash
     make up
     ```
-2. Open your browser and visit `http://localhost:3000`.
+or
+2. Run it locally from pnpm
+    ```bash
+    pnpm dev
+    ```
+3. Open your browser and visit `http://localhost:3000`.
 
 To stop the application, you can use the following command:
 ```bash
@@ -78,7 +83,7 @@ make down
 
 ### About Docker Configuration
 
-I use Docker to containerize our application. The `Dockerfile` sets up a Node.js environment, installs required packages, and sets the application to run. We also use a `docker-compose.yml` file to manage the Docker service, making it easy to build, up, and down the Docker containers through the `Makefile` commands.
+I use Docker to containerize our application. The `Dockerfile` sets up a Node.js environment, installs required packages, and sets the application to run. I've also used a `docker-compose.yml` file to manage the Docker service, making it easy to build, up, and down the Docker containers through the `Makefile` commands.
 
 ## Trade-offs and Shortcuts
 
