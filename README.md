@@ -58,14 +58,14 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
 
 ### Running the App
 
-Docker
+**Docker**
 1. Start the Docker containers:
     ```bash
     make up
     ```
 2. Open your browser and visit `http://localhost:3000`.
 
-Or you can run from pnpm 
+Or you can run from **pnpm** 
 1. Run it locally
     ```bash
     pnpm dev
