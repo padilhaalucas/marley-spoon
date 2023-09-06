@@ -58,16 +58,19 @@ Welcome to Marley Spoon Recipe Explorer, an application built to consume Marley 
 
 ### Running the App
 
+Docker
 1. Start the Docker containers:
     ```bash
     make up
     ```
-or
-2. Run it locally from pnpm
+2. Open your browser and visit `http://localhost:3000`.
+
+Or you can run from pnpm 
+1. Run it locally
     ```bash
     pnpm dev
     ```
-3. Open your browser and visit `http://localhost:3000`.
+2. Open your browser and visit `http://localhost:3000`.
 
 To stop the application, you can use the following command:
 ```bash
